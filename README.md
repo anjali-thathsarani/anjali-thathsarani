@@ -1,52 +1,51 @@
-
-
-# Hi there, I'm Anjali Thathsarani! ✨ 👋
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Welcome%20to%20my%20Space&fontSize=45&animation=fadeIn&theme=tokyonight" alt="Header" />
+  <img src="https://raw.githubusercontent.com/anjali-thathsarani/anjali-thathsarani/main/banner.jpg" alt="Anime Banner" width="100%" />
 </p>
 
-### 🚀 About Me
+## 🌌 About me
 
-I am an enthusiastic **1st-Year Software Engineering Undergraduate Student** who loves exploring the world of code, logic, and design. I am highly motivated to learn new technologies and build beautiful, functional web and software projects.
-
-* 🎓 **Current Status:** 1st Year Undergraduate Student.
-* 💡 **Interests:** Full-Stack Web Development, UI/UX Design, and Clean Coding.
-* 🌱 **Learning Journey:** Currently strengthening my fundamentals in programming foundations and database integrations.
+I am a **Software Engineering Student** passionate about turning creative ideas into solid, scalable, and well-designed digital products. I work across web development, focusing on clean code, neat structures, and interactive user experiences.
 
 ---
 
-### 🛠️ My Tech Stack
-
+## 🎛️ My daily driver
 <p align="left">
-  <!-- Programming Languages -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=windows,vscode&theme=dark" alt="Daily Drivers" />
+</p>
+
+---
+
+## 💻 Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  
-  <!-- Web Frontend -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
 ---
 
-### 📈 GitHub Analytics
-
+## 🛠️ Languages & Tools I Have Placed My Hands On
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anjali-thathsarani&show_icons=true&theme=tokyonight&description_lines_count=2" alt="Anjali's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjali-thathsarani&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anjali-thathsarani&theme=tokyonight" alt="GitHub Streak" width="97%" />
+  <img src="https://skillicons.dev/icons?i=java,python,php,html,css,js,mysql,git,github,figma&perline=5&theme=dark" alt="Skills Grid" />
 </p>
 
 ---
 
-### 📬 Let's Connect!
+## 📊 Analytics
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anjali-thathsarani&theme=gotham&hide_border=true&stroke=dd2c00&ring=dd2c00&fire=dd2c00&currStreakNum=dd2c00" alt="GitHub Streak" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anjali-thathsarani&show_icons=true&theme=gotham&hide_border=true&title_color=dd2c00&icon_color=dd2c00" alt="Anjali's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjali-thathsarani&layout=compact&theme=gotham&hide_border=true&title_color=dd2c00" alt="Top Languages" width="49%" />
+</p>
+
+---
+
+## 📬 Connect with me
 <p align="left">
-  <a href="mailto:anjalidthathsarani11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="mailto:anjalidthathsarani11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
