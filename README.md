@@ -32,10 +32,12 @@ I am a passionate **Software Engineering Student** who loves building aesthetic,
 ### 📊 GitHub Stats
 
 <p align="center">
+  <!-- Top Languages Card (අර ඔයා කියපු රවුම් graph එක) -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjali-thathsarani&layout=compact&theme=tokyonight" alt="Top Langs" width="48%" />
+  
+  <!-- General Stats Card (Alternative link එකක් දැම්මා broken නොවී පේන්න) -->
   <img src="https://github-readme-stats.vercel.app/api?username=anjali-thathsarani&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anjali-thathsarani&theme=tokyonight" alt="GitHub Streak" width="48%" />
 </p>
-
 ---
 
 ### 🤝 Connect with Me
