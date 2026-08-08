@@ -58,9 +58,24 @@
 
 ### 📫 Connect with Me
 
+
 <p align="left">
-  <a href="[https://linkedin.com/in/YOUR-LINKEDIN-USERNAME](https://www.linkedin.com/feed/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="[mailto:your-email@example.com](https://mail.google.com/mail/u/0/#inbox)"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <!-- LinkedIn Button -->
+  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+
+  <!-- Gmail Button -->
+  <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
+    />
+  </a>
 </p>
+
 
 
