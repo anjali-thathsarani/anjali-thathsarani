@@ -6,6 +6,9 @@
 
 ---
 
+<!-- About Me Section -->
+<div align="left" style="border: 2px solid #8A2BE2; border-radius: 12px; padding: 18px; margin-bottom: 20px; background-color: #0d0914; box-shadow: 0 4px 15px rgba(138, 43, 226, 0.2);">
+
 ### 💫 About Me
 
 - 🔭 **Currently Working On:** [Project Name or Focus Area]
@@ -13,7 +16,10 @@
 - 💬 **Ask Me About:** Software Engineering, Web Development, & UI/UX Design
 - ⚡ **Fun Fact:** [Insert a fun or unique fact about yourself]
 
----
+</div>
+
+<!-- Tech Stack & Tools Section -->
+<div align="left" style="border: 2px solid #A855F7; border-radius: 12px; padding: 18px; margin-bottom: 20px; background-color: #0f0a1c; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.2);">
 
 ### 🛠 Tech Stack & Tools
 
@@ -31,7 +37,10 @@
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
----
+</div>
+
+<!-- Featured Projects Section -->
+<div align="left" style="border: 2px solid #C084FC; border-radius: 12px; padding: 18px; margin-bottom: 20px; background-color: #120b22; box-shadow: 0 4px 15px rgba(192, 132, 252, 0.2);">
 
 ### 🚀 Featured Projects
 
@@ -41,7 +50,10 @@
 | **Web Application** | Full-stack web application featuring form processing and backend database integration. | PHP, MySQL, CSS | [Repository](#) |
 | **Python Tool** | Desktop utility application built to handle structured inputs and calculation logs. | Python | [Repository](#) |
 
----
+</div>
+
+<!-- GitHub Analytics Section -->
+<div align="left" style="border: 2px solid #7E22CE; border-radius: 12px; padding: 18px; margin-bottom: 20px; background-color: #0b0712; box-shadow: 0 4px 15px rgba(126, 34, 206, 0.2);">
 
 ### 📊 GitHub Analytics
 
@@ -54,11 +66,12 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
----
+</div>
+
+<!-- Connect with Me Section -->
+<div align="left" style="border: 2px solid #9333EA; border-radius: 12px; padding: 18px; margin-bottom: 20px; background-color: #0d0818; box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2);">
 
 ### 📫 Connect with Me
-
-
 
 <p align="left">
   <!-- LinkedIn Button -->
@@ -78,7 +91,4 @@
   </a>
 </p>
 
-
-  
-
-
+</div>
