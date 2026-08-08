@@ -1,44 +1,66 @@
-# Hi there, I'm Anjali Dasunika! 👋
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20to%20my%20Space&fontSize=40&animation=fadeIn" alt="Header Banner" />
-</p>
-
-### 👩‍💻 About Me
-I am a passionate **Software Engineering Student** who loves building aesthetic, functional, and interactive web applications. 
-
-- 🚀 Learning and exploring full-stack software development.
-- 🎨 Interested in clean UI/UX and modern web aesthetics.
-- 🛠️ Currently working on interactive portfolio projects and database-driven web apps.
-
----
-
-### 🛠️ Tech Stack & Tools
+# Hi there, I'm [Your Name] 👋
 
 <p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <br><br>
-  <!-- Web Technologies -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Software+Engineering+Student;Full-Stack+Developer;UI%2FUX+Enthusiast" alt="Typing SVG" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### 💫 About Me
+
+- 🔭 **Currently Working On:** [Project Name or Focus Area]
+- 🌱 **Currently Learning:** [Technologies, Frameworks, or Concepts]
+- 💬 **Ask Me About:** Software Engineering, Web Development, & UI/UX Design
+- ⚡ **Fun Fact:** [Insert a fun or unique fact about yourself]
+
+---
+
+### 🛠 Tech Stack & Tools
+
+#### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+#### Frameworks & Tools
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+---
+
+### 🚀 Featured Projects
+
+| Project Name | Description | Tech Stack | Link |
+| :--- | :--- | :--- | :--- |
+| **Personal Portfolio** | Interactive single-page developer portfolio featuring animated components and theme toggling. | HTML, CSS, JavaScript | [Repository](#) |
+| **Web Application** | Full-stack web application featuring form processing and backend database integration. | PHP, MySQL, CSS | [Repository](#) |
+| **Python Tool** | Desktop utility application built to handle structured inputs and calculation logs. | Python | [Repository](#) |
+
+---
+
+### 📊 GitHub Analytics
 
 <p align="center">
-  <!-- Top Languages Card (අර ඔයා කියපු රවුම් graph එක) -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjali-thathsarani&layout=compact&theme=tokyonight" alt="Top Langs" width="48%" />
-  
-  <!-- General Stats Card (Alternative link එකක් දැම්මා broken නොවී පේන්න) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=anjali-thathsarani&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
 ---
 
-### 🤝 Connect with Me
-- 📧 Email: anjalidthathsarani11@gmail.com
+### 📫 Connect with Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+
