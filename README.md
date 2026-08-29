@@ -199,7 +199,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 0 0 8%;
+            padding: 0 8%;
             background: var(--hero-bg);
             overflow: hidden;
         }
@@ -325,31 +325,50 @@
             color: #ffffff;
         }
 
-        /* HERO IMAGE WITH ENLARGED SIZE & SMOOTH ALL-AROUND RADIAL BLUR */
-        .hero-image-wrapper {
+        /* HERO PURE CSS AVATAR PLACEHOLDER (NO IMAGE REQUIRED) */
+        .hero-avatar-wrapper {
             flex: 1;
-            height: 100%;
-            position: absolute;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            width: 60%;
-            z-index: 1;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
-            overflow: hidden;
+            justify-content: center;
+            z-index: 2;
         }
 
-        .hero-image-wrapper img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            transform: scale(1.15);
-            -webkit-mask-image: radial-gradient(circle at 60% 50%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 75%);
-            mask-image: radial-gradient(circle at 60% 50%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 75%);
-            filter: contrast(1.05) brightness(0.95);
+        .hero-avatar-card {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(162, 155, 254, 0.2), rgba(255, 20, 147, 0.2));
+            border: 3px solid rgba(162, 155, 254, 0.4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 40px rgba(162, 155, 254, 0.2), inset 0 0 20px rgba(255, 20, 147, 0.15);
+            animation: pulseGlow 4s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulseGlow {
+            0% { transform: scale(1); box-shadow: 0 0 30px rgba(162, 155, 254, 0.2); }
+            100% { transform: scale(1.04); box-shadow: 0 0 50px rgba(255, 20, 147, 0.4); }
+        }
+
+        .hero-avatar-icon {
+            font-size: 5.5rem;
+            margin-bottom: 0.5rem;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+        }
+
+        .hero-avatar-tag {
+            font-family: 'Fira Code', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #a29bfe;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 4px 14px;
+            border-radius: 12px;
+            border: 1px solid rgba(162, 155, 254, 0.3);
         }
 
         .section {
@@ -817,8 +836,7 @@
 
         .certificate-holder-box {
             width: 100%;
-            min-height: 260px;
-            max-height: 380px;
+            height: 260px;
             border: 2px dashed rgba(255, 77, 109, 0.4);
             border-radius: 12px;
             display: flex;
@@ -831,10 +849,9 @@
             padding: 10px;
         }
 
-        .certificate-holder-box img {
+        #certCanvas {
             max-width: 100%;
             max-height: 100%;
-            object-fit: contain;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
@@ -936,15 +953,14 @@
             margin-bottom: 0.5rem; 
         }
 
-        /* Contact Section with Custom Background Image */
+        /* Contact Section with CSS Gradient Background */
         #contact {
             position: relative;
-            background-image: linear-gradient(rgba(13, 13, 13, 0.75), rgba(13, 13, 13, 0.85)), url('it.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: linear-gradient(135deg, rgba(24, 24, 24, 0.95), rgba(13, 13, 13, 0.98)),
+                        radial-gradient(circle at top right, rgba(162, 155, 254, 0.15), transparent);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             color: #ffffff;
-            border-radius: 12px;
+            border-radius: 16px;
             margin: 2rem 8%;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
@@ -965,7 +981,7 @@
             .hero-text { padding-right: 0; text-align: center; }
             .hero-text h1 { font-size: 3.2rem; }
             .hero-text p { font-size: 1.2rem; }
-            .hero-image-wrapper { position: relative; width: 100%; height: 350px; margin-top: 2rem; }
+            .hero-avatar-wrapper { margin-top: 2rem; width: 100%; }
             .about-layout-container, .skills-cert-wrapper { flex-direction: column; }
             .id-outer-container { width: 100%; }
             .project-card { width: 290px; }
@@ -1006,8 +1022,11 @@
             </a>
         </div>
 
-        <div class="hero-image-wrapper">
-            <img src="anjali.jpg" alt="Anjali Dasunika">
+        <div class="hero-avatar-wrapper">
+            <div class="hero-avatar-card">
+                <span class="hero-avatar-icon">👩‍💻</span>
+                <span class="hero-avatar-tag">&lt;SoftwareEngineer /&gt;</span>
+            </div>
         </div>
     </section>
 
@@ -1132,7 +1151,7 @@
                 <h4 class="maroon-card-subtitle" id="certSubtitle">(DP Education)</h4>
                 
                 <div class="certificate-holder-box">
-                    <img id="certImage" src="https://via.placeholder.com/600x400/120509/ff4d6d?text=Certificate+Preview" alt="Certificate Image">
+                    <canvas id="certCanvas" width="500" height="300"></canvas>
                 </div>
 
                 <div class="cert-nav-btns">
@@ -1214,12 +1233,14 @@
             {
                 title: "University of Moratuwa",
                 subtitle: "(DP Education - Python Coding)",
-                image: "https://via.placeholder.com/600x400/120509/ff4d6d?text=Moratuwa+University+Certificate"
+                certName: "Certificate of Completion",
+                field: "Python Programming"
             },
             {
                 title: "Full-Stack Web Development",
                 subtitle: "(Interactive Applications & PHP)",
-                image: "https://via.placeholder.com/600x400/120509/8e44ad?text=Web+Dev+Certificate"
+                certName: "Certificate of Achievement",
+                field: "Web Development"
             }
         ];
 
@@ -1230,14 +1251,54 @@
         const closeCertModalBtn = document.getElementById('closeCertModal');
         const certTitle = document.getElementById('certTitle');
         const certSubtitle = document.getElementById('certSubtitle');
-        const certImage = document.getElementById('certImage');
+        const certCanvas = document.getElementById('certCanvas');
         const prevCertBtn = document.getElementById('prevCertBtn');
         const nextCertBtn = document.getElementById('nextCertBtn');
+
+        function drawCertificateCanvas() {
+            const ctx = certCanvas.getContext('2d');
+            const data = certificates[currentCertIndex];
+
+            // Background
+            ctx.fillStyle = "#1a0810";
+            ctx.fillRect(0, 0, 500, 300);
+
+            // Border
+            ctx.strokeStyle = "#ff4d6d";
+            ctx.lineWidth = 6;
+            ctx.strokeRect(15, 15, 470, 270);
+            
+            ctx.strokeStyle = "#8e44ad";
+            ctx.lineWidth = 2;
+            ctx.strokeRect(22, 22, 456, 256);
+
+            // Text Rendering
+            ctx.fillStyle = "#ff85a1";
+            ctx.font = "bold 16px 'Poppins', sans-serif";
+            ctx.textAlign = "center";
+            ctx.fillText(data.title.toUpperCase(), 250, 65);
+
+            ctx.fillStyle = "#d8b4fe";
+            ctx.font = "13px 'Inter', sans-serif";
+            ctx.fillText(data.subtitle, 250, 90);
+
+            ctx.fillStyle = "#ffffff";
+            ctx.font = "bold 22px 'Poppins', sans-serif";
+            ctx.fillText(data.certName, 250, 150);
+
+            ctx.fillStyle = "#a29bfe";
+            ctx.font = "14px 'Fira Code', monospace";
+            ctx.fillText("Specialization: " + data.field, 250, 185);
+
+            ctx.fillStyle = "#ff4d6d";
+            ctx.font = "bold 12px 'Inter', sans-serif";
+            ctx.fillText("AWARDED TO: ANJALI DASUNIKA", 250, 235);
+        }
 
         function updateCertificateView() {
             certTitle.textContent = certificates[currentCertIndex].title;
             certSubtitle.textContent = certificates[currentCertIndex].subtitle;
-            certImage.src = certificates[currentCertIndex].image;
+            drawCertificateCanvas();
         }
 
         openCertModalBtn.addEventListener('click', () => {
